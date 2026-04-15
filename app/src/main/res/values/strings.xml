@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Estoque Eletrônico</string>
+    <string name="title_register">Cadastro de Produto</string>
+    <string name="hint_name">Nome do Produto</string>
+    <string name="hint_code">Código do Produto (Ex: ABC-123)</string>
+    <string name="hint_price">Preço (R$)</string>
+    <string name="hint_quantity">Quantidade em estoque</string>
+    <string name="btn_save">Salvar Produto</string>
+    <string name="btn_view_list">Ver Lista de Produtos</string>
+    <string name="error_empty">Este campo é obrigatório</string>
+    <string name="error_invalid_value">Valor deve ser maior que zero</string>
+    <string name="success_save">Produto salvo com sucesso!</string>
+    <string name="title_list">Produtos em Estoque</string>
+    <string name="btn_back">Voltar ao Cadastro</string>
+    <string name="label_code">Código: %1$s</string>
+    <string name="label_price">Preço: R$ %1$.2f</string>
+    <string name="label_stock">Estoque: %1$d unidades</string>
+</resources>
