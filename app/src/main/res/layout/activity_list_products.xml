@@ -12,7 +12,7 @@
         android:id="@+id/title_list"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Produtos Cadastrados"
+        android:text="@string/title_list"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintTop_toTopOf="parent"
@@ -30,11 +30,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/title_list" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_back"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Voltar para Cadastro"
+        android:text="@string/btn_back"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
